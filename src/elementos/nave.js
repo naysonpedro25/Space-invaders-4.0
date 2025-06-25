@@ -78,6 +78,8 @@ export function criarNave() {
 
     criarExplosaoParticulas(nave, "#FFFFFF");
 
+    k.shake(10);
+
     // k.destroyAll("projetil-jogador");
   });
 
